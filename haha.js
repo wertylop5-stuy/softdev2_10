@@ -68,7 +68,7 @@ class Circle {
 }
 
 function randMax(max) {
-	return Math.floor(Math.random() * (max - 20 + 1)) + 20;
+    return Math.floor(Math.random() * ((max - 20) + 1));
 }
 
 (() => {
